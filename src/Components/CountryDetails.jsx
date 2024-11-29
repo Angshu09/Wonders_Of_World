@@ -5,9 +5,7 @@ import errorImage from "../notFound.png";
 
 export default function CountryDetails() {
   const { country } = useParams(); //It gives me the country name
-  console.log(country)
   const { state } = useLocation(); //provides information about the current URL/location, here we destructuring the state
-  console.log(state)
 
   const [countryData, setCountryData] = useState(null);
   const [notFound, setNotFound] = useState(false);
