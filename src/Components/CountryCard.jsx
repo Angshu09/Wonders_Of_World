@@ -15,7 +15,7 @@ export default function CountryCard({
       to={`/${name}`}
       state={data}
     >
-      <div className="w-full h-[200px] md:h-[175px]">
+      <div className="w-full h-[240px] md:h-[175px]">
         <img className=" object-cover w-full h-full" src={flag} alt={name} />
       </div>
       <div className="p-6 ">
