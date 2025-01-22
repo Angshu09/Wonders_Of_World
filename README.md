@@ -83,12 +83,12 @@ Wonders_Of_World/
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/wonders-of-world.git
+   git clone https://github.com/Angshu09/Wonders_Of_World.git
    ```
 
 2. **Navigate to the Project Directory**
    ```bash
-   cd wonders-of-world
+   cd Wonders_Of_World
    ```
 
 3. **Install Dependencies**
@@ -98,10 +98,10 @@ Wonders_Of_World/
 
 4. **Start the Development Server**
    ```bash
-   npm start
+   npm run dev
    ```
 
-5. Open your browser and navigate to `http://localhost:3000` to explore Wonders Of World.
+5. Open your browser and navigate to `http://localhost:5173/` to explore Wonders Of World.
 
 ## 📸 Screenshots
 
