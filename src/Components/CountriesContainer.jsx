@@ -4,9 +4,10 @@ import CountriesContainerShimmer from "./CountriesContainerShimmer";
 
 export default function CountriesContainer({ query }) {
   const [countryData, setCountryData] = useState([]);
+  console.log(countryData)
 
   useEffect(() => {
-    fetch("https://restcountries.com/v3.1/all")
+    fetch("https://restcountries.com/v3.1/all?fields=name,flags,population,region,capital,borders")
       .then((res) => res.json())
       .then((data) => {
         setCountryData(data);

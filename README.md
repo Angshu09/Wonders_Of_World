@@ -102,7 +102,7 @@ Wonders_Of_World/
    ```
 
 5. Open your browser and navigate to `http://localhost:5173/` to explore Wonders Of World.
-
+ 
 ## 📸 Screenshots
 
 ### Home Page
